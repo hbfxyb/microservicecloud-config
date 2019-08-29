@@ -20,8 +20,6 @@ mybatis:
   - classpath:mapper/*.xml
   type-aliases-package: classpath*:com.test.entity
 eureka:
-  instance:
-    hostname: eureka7001.com
   client:
     register-with-eureka: false #当前eureka-server自己不注册进服务列表中
     fetch-registry: false  #不通过eureka获取注册信息
@@ -42,8 +40,6 @@ mybatis:
   - classpath:mapper/*.xml
   type-aliases-package: classpath*:com.test.entity
 eureka:
-  instance:
-    hostname: eureka7001.com
   client:
     register-with-eureka: false #当前eureka-server自己不注册进服务列表中
     fetch-registry: false  #不通过eureka获取注册信息
