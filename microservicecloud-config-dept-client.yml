@@ -12,7 +12,7 @@ spring:
     name: microservicecloud-config-dept-client
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloud01?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/cloud03?useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
 mybatis:
